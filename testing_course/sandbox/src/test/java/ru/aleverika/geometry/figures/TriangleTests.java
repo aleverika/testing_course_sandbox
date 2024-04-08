@@ -24,4 +24,26 @@ public class TriangleTests {
         t = new Triangle(5, 5, 5);
         Assertions.assertEquals(10.825, t.get_triangle_aria(), epsilon);
     }
-}
+    @Test
+    void IsTriangleExist() {
+        try {
+            var t = new Triangle(34, 5, 3);
+            Assertions.fail();
+        } catch (IllegalArgumentException exception) {
+            //  ok
+        }
+    }
+
+    @Test
+    void NotNegativeSide(){
+            try {
+                var t = new Triangle(-5, 6, 7);
+                Assertions.fail();
+            } catch (IllegalArgumentException exception) {
+                // ok
+            }
+        }
+
+
+    }
+
