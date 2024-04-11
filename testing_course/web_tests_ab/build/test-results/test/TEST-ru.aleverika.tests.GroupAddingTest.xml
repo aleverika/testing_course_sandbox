@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.aleverika.tests.GroupAddingTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-04-11T01:07:05" hostname="WURRTKIT0256" time="4.95">
+  <properties/>
+  <testcase name="CanAddGroupEmptyName()" classname="ru.aleverika.tests.GroupAddingTest" time="3.448"/>
+  <testcase name="CanAddGroup()" classname="ru.aleverika.tests.GroupAddingTest" time="0.863"/>
+  <testcase name="CanAddGroupWithName()" classname="ru.aleverika.tests.GroupAddingTest" time="0.635"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,4 +1,4 @@
-package model;
+package ru.aleverika.model;
 
 public record GroupData(String Name, String Header, String Footer) {
     public GroupData(){
