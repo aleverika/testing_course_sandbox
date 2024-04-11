@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.aleverika.tests.GroupDeletingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-11T17:01:18" hostname="WURRTKIT0256" time="2.467">
-  <properties/>
-  <testcase name="groupDeleting()" classname="ru.aleverika.tests.GroupDeletingTest" time="2.467"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

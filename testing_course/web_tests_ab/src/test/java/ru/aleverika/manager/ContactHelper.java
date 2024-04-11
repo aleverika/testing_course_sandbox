@@ -58,7 +58,7 @@ public class ContactHelper extends BaseHelper {
     }
 
     private void contactSelect() {
-            click(By.id("1"));
+            click(By.name("selected[]"));
     }
 
     private void allContactSelect(){

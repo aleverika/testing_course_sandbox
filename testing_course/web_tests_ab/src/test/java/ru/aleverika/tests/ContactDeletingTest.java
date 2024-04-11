@@ -19,7 +19,7 @@ public class ContactDeletingTest extends BaseTest {
 
     @Test
     public void canAllContactDelete(){
-        if (!(app.contact().getContactCount()==0)) {
+        if ((app.contact().getContactCount()==0)) {
             app.contact().contactCreation(new ContactData("Anton", "Victor", "Gorodetskiy",
                     "good_boy", "", "Red&White", "", "+7978765787",
                     "3678907", "", "", "all@mail.com", "", "",
