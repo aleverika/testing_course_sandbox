@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.aleverika.tests.ContactAddingTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-04-11T23:36:24" hostname="WURRTKIT0256" time="10.561">
+  <properties/>
+  <testcase name="[1] ContactData[FirstName=lisrviqrnu, SecondName=jcbukovtda, LastName=cywmqnnvly, Nickname=jorlskttpwigcsp, Title=lxnarnq, Company=gxuagrwl, Address=uziehbyuwquclhzthsveppuqrhpjnj, MobilePhone=96260295, WorkPhone=72017510, HomePhone=95589370, Fax=838220, Email_1=zjct@fsq.ns, Email_2=, Email_3=, Homepage=, B_day=25, B_month=May, B_year=1998, Anniversary=, Group=]" classname="ru.aleverika.tests.ContactAddingTest" time="5.347"/>
+  <testcase name="[2] ContactData[FirstName=, SecondName=, LastName=, Nickname=, Title=, Company=, Address=, MobilePhone=, WorkPhone=, HomePhone=, Fax=, Email_1=, Email_2=, Email_3=, Homepage=, B_day=, B_month=, B_year=, Anniversary=, Group=]" classname="ru.aleverika.tests.ContactAddingTest" time="2.49"/>
+  <testcase name="[3] ContactData[FirstName=Anton, SecondName=Victor, LastName=Gorodetskiy, Nickname=good_boy, Title=, Company=Red&amp;White, Address=, MobilePhone=+7978765787, WorkPhone=3678907, HomePhone=, Fax=, Email_1=all@mail.com, Email_2=, Email_3=, Homepage=, B_day=13, B_month=July, B_year=1987, Anniversary=, Group=]" classname="ru.aleverika.tests.ContactAddingTest" time="2.719"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

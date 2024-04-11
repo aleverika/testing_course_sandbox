@@ -95,4 +95,16 @@ public class GroupHelper extends BaseHelper {
         openGroupPage();
         return manager.driver.findElements(By.name("selected[]")).size();
     }
+
+    private void selectAllGroups() {
+        var checkboxes = manager.driver.findElements(By.name("selected[]"));
+        for (var checkbox : checkboxes) {
+            checkbox.click();
+        }
+    }
+    public void removeAllGroups(){
+        selectAllGroups();
+        deleteClick();
+    }
+
 }
