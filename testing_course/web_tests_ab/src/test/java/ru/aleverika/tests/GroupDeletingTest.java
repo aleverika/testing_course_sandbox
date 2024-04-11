@@ -8,7 +8,7 @@ public class GroupDeletingTest extends BaseTest {
     @Test
     public void groupDeleting() {
         if (!app.groups().isGroupExist()) {
-            app.groups().GroupCreate(new GroupData("testing_group", "testing logo", "comment to show how does it work"));
+            app.groups().groupCreate(new GroupData("testing_group", "testing logo", "comment to show how does it work"));
         }
             app.groups.removeGroup();
     }

@@ -10,19 +10,19 @@ public class GroupHelper extends BaseHelper {
         super(manager);
     }
 
-    public void OpenGroupPage() {
+    public void openGroupPage() {
         if (!manager.isElementExist(By.name("new"))) {
             click(By.linkText("groups"));
         }
     }
 
     public boolean isGroupExist() {
-        OpenGroupPage();
+        openGroupPage();
         return manager.isElementExist(By.name("selected[]"));
     }
 
-    public void GroupCreate(GroupData group) {
-        OpenGroupPage();
+    public void groupCreate(GroupData group) {
+        openGroupPage();
         initGroupCreation();
         fillGroupForm(group);
         submitGroupCreation();
@@ -30,14 +30,14 @@ public class GroupHelper extends BaseHelper {
     }
 
     public void removeGroup() {
-        OpenGroupPage();
+        openGroupPage();
         selectGroup();
         deleteClick();
         returnToGroupPage();
     }
 
     public void modifyGroup(GroupData modifiedGroup) {
-        OpenGroupPage();
+        openGroupPage();
         selectGroup();
         initGroupModification();
         fillGroupForm(modifiedGroup);

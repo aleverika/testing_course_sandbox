@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.aleverika.tests.ContactDeletingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-11T16:32:08" hostname="WURRTKIT0256" time="2.26">
+  <properties/>
+  <testcase name="canAllContactDelete()" classname="ru.aleverika.tests.ContactDeletingTest" time="2.26"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

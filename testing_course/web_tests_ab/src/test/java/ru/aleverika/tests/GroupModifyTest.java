@@ -9,7 +9,7 @@ public class GroupModifyTest extends BaseTest {
     public void canModifyGroup() {
 
         if (!app.groups().isGroupExist()) {
-            app.groups().GroupCreate(new GroupData("testing_group", "testing logo", "comment to show how does it work"));
+            app.groups().groupCreate(new GroupData("testing_group", "testing logo", "comment to show how does it work"));
         }
         app.groups().modifyGroup(new GroupData().withName("modified name"));
 

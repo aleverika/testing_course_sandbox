@@ -12,6 +12,7 @@ public class ApplicationManager {
     protected WebDriver driver;
     private LoginHelper session;
     public GroupHelper groups;
+    public ContactHelper contact;
 
 
     public void init(String browser) throws IllegalArgumentException {
@@ -47,6 +48,13 @@ public class ApplicationManager {
             groups = new GroupHelper(this);
         }
         return groups;
+    }
+
+    public ContactHelper contact(){
+        if (contact == null){
+            contact = new ContactHelper(this);
+        }
+        return contact;
     }
 
     public boolean isElementExist(By locator) {
