@@ -1,7 +1,8 @@
-package ru.aleverika.geometry.figures;
+package src.test.java.ru.aleverika.geometry.figures;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import ru.aleverika.geometry.figures.Triangle;
 
 public class TriangleTests {
     @Test

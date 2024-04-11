@@ -91,4 +91,8 @@ public class GroupHelper extends BaseHelper {
     }
 
 
+    public int getCount() {
+        openGroupPage();
+        return manager.driver.findElements(By.name("selected[]")).size();
+    }
 }

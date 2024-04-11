@@ -50,9 +50,11 @@ public class ContactHelper extends BaseHelper {
     }
 
     private void deleteClick() {
-        if (manager.isElementExist(By.id("1"))) {
             click(By.xpath("//input[@value='Delete']"));
-        }
+    }
+    public int getContactCount(){
+        openHomePage();
+        return manager.driver.findElements(By.name("selected[]")).size();
     }
 
     private void contactSelect() {
